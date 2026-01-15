@@ -161,8 +161,8 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
     type: select
     proxies:
+      - DIRECT    
       - 节点选择
-      - DIRECT
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -216,14 +216,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
     proxies:
+      - DIRECT    
       - REJECT
-      - DIRECT
   - name: 应用净化
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
     type: select
     proxies:
+      - DIRECT    
       - REJECT
-      - DIRECT
   - name: 漏网之鱼
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
