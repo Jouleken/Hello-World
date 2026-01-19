@@ -9,8 +9,8 @@
 // @match        https://jimeng.jianying.com/ai-tool/*
 // @grant        GM_download
 // @grant        GM_xmlhttpRequest
-// @downloadURL https://cdn.jsdelivr.net/gh/Jouleken/Hello-World/js/jm.user.js
-// @updateURL https://cdn.jsdelivr.net/gh/Jouleken/Hello-World/js/jm.user.js
+// @downloadURL https://cdn.jsdelivr.net/gh/Jouleken/Hello-World/js/jm-silent.user.js
+// @updateURL https://cdn.jsdelivr.net/gh/Jouleken/Hello-World/js/jm-silent.user.js
 // ==/UserScript==
 
 (function () {
