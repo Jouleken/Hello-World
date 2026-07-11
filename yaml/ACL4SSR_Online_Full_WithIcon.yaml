@@ -296,7 +296,7 @@ proxy-groups:
   - name: 欧洲节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
     include-all: true
-    filter: (?i)🇬🇧|GB|英国|Britain|United Kingdom|UNITED KINGDOM|England|🇫🇷|FR|法国|\bFR(?:[-_ ]?\d+(?:[-_ ]?[A-Za-z]{2,})?)?\b|France|FRANCE|🇩🇪|DE|德国|Germany|GERMANY|🇳🇱|NL|荷兰|Netherlands|NETHERLANDS|🇹🇷|TR|土耳其|Turkey|TURKEY|Türkiye|🇷🇺|RU|(?<!白)俄罗斯|(?<!白)俄|莫斯科|
+    filter: (?i)🇬🇧|英国|Britain|United Kingdom|UNITED KINGDOM|England|🇫🇷|法国|\bFR(?:[-_ ]?\d+(?:[-_ ]?[A-Za-z]{2,})?)?\b|France|FRANCE|🇩🇪|德国|Germany|GERMANY|🇳🇱|荷兰|Netherlands|NETHERLANDS|🇹🇷|土耳其|Turkey|TURKEY|Türkiye|🇷🇺|(?<!白)俄罗斯|(?<!白)俄|莫斯科|
     type: url-test
     interval: 300
     tolerance: 50
