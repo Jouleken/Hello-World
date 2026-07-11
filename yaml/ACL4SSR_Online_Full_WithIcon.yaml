@@ -10,6 +10,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
       - DIRECT
   - name: 手动切换
@@ -34,6 +35,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
       - DIRECT
   - name: Ai平台
@@ -48,6 +50,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
       - DIRECT
   - name: 油管视频
@@ -62,6 +65,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
       - DIRECT
   - name: 奈飞视频
@@ -77,6 +81,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
       - DIRECT
   - name: 巴哈姆特
@@ -106,6 +111,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
       - DIRECT
   - name: 国内媒体
@@ -130,6 +136,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 微软Bing
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
@@ -143,6 +150,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 微软云盘
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
@@ -156,6 +164,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 微软服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
@@ -169,6 +178,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 苹果服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
@@ -182,6 +192,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 游戏平台
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
@@ -195,6 +206,7 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 网易音乐
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
@@ -237,6 +249,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 欧洲节点
       - 手动切换
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
@@ -280,6 +293,13 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 欧洲节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
+    include-all: true
+    filter: (?i)🇬🇧|GB|英国|Britain|United Kingdom|UNITED KINGDOM|England|🇫🇷|FR|法国|\bFR(?:[-_ ]?\d+(?:[-_ ]?[A-Za-z]{2,})?)?\b|France|FRANCE|🇩🇪|DE|德国|Germany|GERMANY|🇳🇱|NL|荷兰|Netherlands|NETHERLANDS|🇹🇷|TR|土耳其|Turkey|TURKEY|Türkiye|🇷🇺|RU|(?<!白)俄罗斯|(?<!白)俄|莫斯科|
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
@@ -318,6 +338,7 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 韩国节点
+      - 欧洲节点
       - 奈飞节点
 
 rule-providers:
