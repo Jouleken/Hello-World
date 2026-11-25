@@ -317,7 +317,7 @@ proxy-groups:
   - name: 亚洲节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Asia_Map.png
     include-all: true
-    filter: (?i)马来|大马|马来西亚|MY|Malaysia|🇲🇾|泰国|泰|TH|Thailand|🇹🇭|越南|VN|Vietnam|🇻🇳
+    filter: (?i)马来|大马|马来西亚|MY|Malaysia|🇲🇾|泰国|泰|Thailand|🇹🇭|越南|VN|Vietnam|🇻🇳
     type: url-test
     interval: 300
     tolerance: 50  
